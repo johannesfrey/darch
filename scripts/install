@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
+set -x
 
 if [[ ! $EUID -eq 0 ]]; then
     echo "This script should only be run as root user."
